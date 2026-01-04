@@ -1,28 +1,20 @@
-# 🥗 Food Freshness & Quality Classifier
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-🚀 A computer vision–based ML application that evaluates food quality from images to help users make safer eating decisions.
+# Run and deploy your AI Studio app
 
-## 🔍 What It Does
-- 📸 User uploads a food image
-- 🧠 Model analyzes visual features
-- ✅ Predicts food condition: **Fresh / Okay / Avoid**
-- 🍎 Can be extended to fruit ripeness or food category detection
+This contains everything you need to run your app locally.
 
-## 🛠️ Tech Stack
-- 👁️ Vision Models: Hugging Face pre-trained CV models
-- 🐍 Backend: Python / JavaScript
-- 🔌 Image Classification API
-- 🌐 Frontend: Simple image uploader (Web / Mobile)
+View your app in AI Studio: https://ai.studio/apps/temp/1
 
-## 💡 Why This Project Stands Out
-- 📷 Strong computer vision fundamentals
-- 🌍 Practical real-life ML use case
-- 🚫 Far more meaningful than demo or meme projects
-- 🔄 Easily extensible to nutrition or waste reduction systems
+## Run Locally
 
-## 📌 Resume Highlight
-- Built an image classification system using pre-trained vision models to assess food quality from user-uploaded images.
+**Prerequisites:**  Node.js
 
-## 🤝 Open for Collaboration
-- Looking to improve dataset quality, model accuracy, and UI experience
-- Contributions and ideas welcome!
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

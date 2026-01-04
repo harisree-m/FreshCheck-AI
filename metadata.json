@@ -1,0 +1,8 @@
+
+{
+  "name": "FreshCheck AI",
+  "description": "An advanced food freshness and quality classifier using Gemini 3 Vision to help reduce food waste and ensure kitchen safety.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
